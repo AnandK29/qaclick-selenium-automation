@@ -92,6 +92,3 @@ Above code block is from *login.feature* file. As you can see the test data for 
 * Find testng reports in *test-output* folder. Look for *index.html*  file and open it on the browser.
 
 ...
-
-
- 
