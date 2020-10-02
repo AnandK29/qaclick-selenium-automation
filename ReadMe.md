@@ -1,4 +1,4 @@
-#Automation QAClick Academy website
+**Automation QAClick Academy website**<br>
 A simple automation project created with java, selenium, maven, cucumber and testng to demostrate effective use of cucumber-framework for testng/junit test cases.
 
 ##Table of contents
