@@ -74,11 +74,14 @@ Above code block is from *login.feature* file. As you can see the test data for 
 ## Limitations
 </a>
 
-1. To execute test cases of only a particular page (say home page or signup page ) modification if *stepDefinitions* file will be needed.
+1. To execute test cases of only a particular page (say home page or signup page ) modification of *stepDefinitions* file will be needed.
 2. Requires JRE 1.7 or above to support the execution. Code will not compile on versions below 1.7 due switch-case uses.
 3. POM.xml not configured to run smoke and regression tests independently.
 4. No 3rd party reporting is added.
 5. Test is configured to runs only on *chrome* and *firefox* driver.
+
+**Note - Above limitations are put intentionally to keep the project generic. 
+         You can add drivers for any desired browser. You can add a reporting service as per requirement & configure the POM.xml to execute tests as you wish to.
 
 ...
 <a name="endnote">
